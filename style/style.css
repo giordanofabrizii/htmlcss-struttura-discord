@@ -54,13 +54,13 @@ header {
     color: white;
 }
 
-.menu-bar a { /* ? link in the header*/
+.menu-bar a{ /* ? link in the header*/
     text-decoration: none;
     color: white;
     margin: 0 1rem;
 }
 
-.menu-bar a:hover{
+a:hover{
     text-decoration: underline;
 }
 
@@ -165,13 +165,91 @@ main > section{
     align-self: center;
 }
 
-.footer-main h2 {
+.footer-main h2{
     font-size: 2.5rem;
-    margin-bottom: 2.5rem;
+    margin-bottom: 4rem;
 }
 
 .azure-back{
     background-color: #7289da;
     font-size: 1.3rem;
     font-weight: 300;
+}
+
+body > footer{/* ! only the footer of the page (exclude the one in main) */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#footer-content { 
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 5rem 0;
+    width: 100%;
+}
+
+.dark-back {
+    background-color: #23272a;
+}
+
+footer h2 {
+    font-size: 2rem;
+}
+
+.azure-color {
+    color: #7289da;
+}
+
+.horizontal-alignment{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    height: 1.2rem;
+    font-weight: 400;
+}
+
+body > footer img{
+    margin-right: 0.4rem;
+}
+
+footer ul{
+    list-style-type: none;
+    text-decoration:none;
+}
+
+footer a{
+    text-decoration: none;
+    color: white;
+}
+
+footer li{
+    margin: 2rem 0;
+}
+
+.socials {
+    width: 20%;
+}
+
+.links{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    width: 70%;
+}
+
+hr{
+    color: #7289da;
+    margin-bottom: 1.5rem;
+}
+
+.footer-end{
+    width: 90%;
+    margin-bottom: 1.5rem;
+}
+
+.footer-logo {
+    display: flex;
+    justify-content: space-between;
 }
