@@ -88,7 +88,7 @@ header {
     display: flex;
     align-self: center;
     justify-content: space-between;
-    width: 21.4rem;
+    width: 22.4rem;
 }
 
 .download p{
@@ -100,9 +100,11 @@ header {
 
 .rounded{ /* ? button class */
     border-radius: 1.8rem;
-    padding: 0.6rem 1rem;
+    padding: 0.5rem 1.2rem;
     border: 0;
     font-weight: 700;
+    line-height: 1.6rem;
+    align-content: baseline;
 }
 
 .rounded:hover{
@@ -114,7 +116,7 @@ header {
 }
 
 main > section{
-    margin: 6rem 0;
+    padding: 6rem 0;
     display: flex;
     justify-content: center;
     flex-direction: row;
@@ -124,18 +126,52 @@ main > section{
     width: 21.8%;
 }
 
-.text-section  h1{
+.text-section  h1, .footer-main h1{
     margin-top: 1.7rem;
     font-size: 3.5rem;
     font-weight: 700;
     margin-bottom: 2rem;
 }
 
-.text-section  p{
+.text-section  p, .footer-main p{
     font-weight: 300;
     font-size: 1.38rem;
 }
 
 .gray-back {
-    background-color: ;
+    background-color: #f6f6f6;
+}
+
+.footer-main{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 6rem 0;
+}
+
+.footer-main p{
+    width: 65rem;
+    align-self: center;
+}
+
+.videocall {
+    width: 90rem;
+    align-self: center;
+}
+
+.stars{
+    width: 42rem;
+    align-self: center;
+}
+
+.footer-main h2 {
+    font-size: 2.5rem;
+    margin-bottom: 2.5rem;
+}
+
+.azure-back{
+    background-color: #7289da;
+    font-size: 1.3rem;
+    font-weight: 300;
 }
