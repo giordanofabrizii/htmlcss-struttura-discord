@@ -1,0 +1,34 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+}
+
+header {
+    height: 40rem;
+    width: 100%;
+}
+
+.header-main{
+    height: 5rem;
+}
+
+.centered {
+    max-width: 120rem;
+}
+
+.blue-back {
+    background-color: #255ee9;
+}
+
+.download {
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 35rem;
+}
