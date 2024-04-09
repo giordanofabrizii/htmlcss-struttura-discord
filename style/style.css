@@ -21,6 +21,10 @@ header {
     width: 100%;
 }
 
+.white-color{
+    color: white;
+}
+
 .header-main{
     height: 5rem;
 }
@@ -45,4 +49,35 @@ header {
     justify-content: center;
     flex-direction: column;
     text-align: center;
+}
+
+.download h1{
+    font-size: 3.5rem;
+    margin-bottom: 1.5rem;
+    font-weight: 700;
+}
+
+.button-section {
+    display: flex;
+    align-self: center;
+    justify-content: space-between;
+    width: 21.4rem;
+}
+
+.download p{
+    width: 36.9rem;
+    line-height: 1.6rem;
+    align-self: center;
+}
+
+.rounded{
+    border-radius: 1.8rem;
+    padding: 0.6rem 1rem;
+    border: 0;
+    margin: 0.6rem 0;
+    font-weight: 700;
+}
+
+.black-back{
+    background-color: #23272a;;
 }
