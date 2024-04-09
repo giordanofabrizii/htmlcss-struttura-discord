@@ -27,6 +27,15 @@ header {
 
 .header-main{
     height: 5rem;
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5rem 15rem;
+    line-height: 3rem;
+    align-items: center;
+}
+
+.big-logo{
+    align-self: baseline;
 }
 
 .limited-width {
@@ -35,6 +44,19 @@ header {
 
 .blue-back {
     background-color: #255ee9;
+}
+
+.menu-bar { /* ! ul in the header */
+    display: flex;
+    list-style-type: none;
+    text-decoration:none;
+    color: white;
+}
+
+.menu-bar a {
+    text-decoration: none;
+    color: white;
+    margin: 0 1rem;
 }
 
 .download {
@@ -68,13 +90,13 @@ header {
     width: 36.9rem;
     line-height: 1.6rem;
     align-self: center;
+    margin-bottom: 0.6rem;
 }
 
 .rounded{
     border-radius: 1.8rem;
     padding: 0.6rem 1rem;
     border: 0;
-    margin: 0.6rem 0;
     font-weight: 700;
 }
 
